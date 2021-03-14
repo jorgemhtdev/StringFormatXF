@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application
+    x:Class="StringFormatXF.App"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Application.Resources>
+        <x:String x:Key="formatdate">{0:dd MM yyyy}</x:String>
+        <x:String x:Key="formatdatehour">{0:HH:mm tt}</x:String>
+        <x:String x:Key="formatdatehourseconds">{0:HH:mm:ss}</x:String>
+        <x:String x:Key="formatdecimalzeroplaces">{0:#}</x:String>
+        <x:String x:Key="formatdecimaloneplaces">{0:#.0}</x:String>
+        <x:String x:Key="formatdecimaltwoplaces">{0:#.00}</x:String>
+        <x:String x:Key="formatdecimal">{0:N}</x:String>
+        <x:String x:Key="coin">{0:C2}</x:String>
+
+    </Application.Resources>
+</Application>
